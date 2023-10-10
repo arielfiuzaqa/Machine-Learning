@@ -6,8 +6,8 @@ import neat
 ai_jogando = True
 geracao = 0
 
-TELA_LARGURA = 500
-TELA_ALTURA = 800
+TELA_LARGURA = 570
+TELA_ALTURA = 700
 
 IMAGEM_CANO = pygame.transform.scale2x(pygame.image.load(os.path.join('flappy-bird/imgs', 'pipe.png')))
 IMAGEM_CHAO = pygame.transform.scale2x(pygame.image.load(os.path.join('flappy-bird/imgs', 'base.png')))
